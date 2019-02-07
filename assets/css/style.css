@@ -1239,7 +1239,7 @@ General Styles - Owlcarousel
 	Navbar
 --------------------------------------------------------------*/
 .navbar-custom {
-  background-color: rgba(10, 10, 10, 0.9);
+  background-color: #fff; /*rgba(10, 10, 10, 0.9);*/
   border: 0;
   border-radius: 0;
   z-index: 1000;
@@ -2927,4 +2927,11 @@ Google map
   .works-grid-5 .work-item {
     width: 100%;
   }
+}
+
+.work-item iframe {
+
+	width: 100%;
+	min-height: 250px;
+	
 }
